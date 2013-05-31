@@ -21,9 +21,10 @@ group :development do
 end
 ```
 
-### Add lib/tasks/shed.rake to your Rails project
+### Tasks
 
 ```ruby
+  # lib/tasks/shed.rake
   namespace :shed do
     # insert your rake tasks here
     task :update_the_database do 
