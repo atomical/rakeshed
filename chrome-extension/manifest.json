@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+
+  "name": "Rakeshed",
+  "description": "Run rake tasks without blowing up your screen with a switch to the terminal.",
+  "version": "1.0",
+
+  "background" : {
+    "scripts": ["js/background.js"]
+  },
+    "icons": {
+      "16" : "Rails_Logo_16x16.png",
+      "48" : "Rails_Logo_48x48.png",
+      "38" : "Rails_Logo_32x32.png",
+      "128" : "Rails_Logo_128x128.png"
+    },
+  "page_action": {
+    "default_icon" : "Rails_Logo_128x128.png",
+
+    "default_title" : "Rakeshed",
+    "default_popup": "popup.html"
+  },
+
+  "sandbox": {
+    "pages" : ["sandbox.html"]
+  },
+
+  "permissions": [
+    "http://localhost/", "tabs"
+  ]
+}
