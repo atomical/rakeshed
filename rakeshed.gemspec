@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.summary     = "Run rake tasks in the browser without blowing up your screen with a switch to the terminal."
   s.description = "Run rake tasks in the browser without blowing up your screen with a switch to the terminal."
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 3.2.13"
