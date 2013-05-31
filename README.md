@@ -1,4 +1,5 @@
-= Rakeshed
+Rakeshed
+=========
 
 This project rocks and uses MIT-LICENSE.
 
@@ -8,7 +9,11 @@ different states.  Switching back and forth gives the impression that the develo
 Rakeshed fixes that.  Write your rake tasks ahead of time and execute them in the browser.
 
 
-In your Gemfile:
+Install
+----------
+
+### Gemfile
+
 
 ```ruby
 group :development do 
@@ -16,8 +21,22 @@ group :development do
 end
 ```
 
+### Add lib/tasks/shed.rake to your Rails project
+
+```ruby
+  namespace :shed do
+    # insert your rake tasks here
+    task :update_the_database do 
+
+    end
+  end
+```
+
+### Chrome
+
 To install the Chrome extension navigate to chrome://extensions and load 'chrome-extension'
 from the rakeshed directory.
+
 
 The Rails Logo was created by Kevin Milden and is distrubuted under the BY-ND Creative Commons Licence.
 http://railslogo.com/
