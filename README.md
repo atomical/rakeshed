@@ -1,13 +1,12 @@
 Rakeshed
 =========
 
-This project rocks and uses MIT-LICENSE.
+You are in a meeting giving a demo of your weekly project.  You switch from browser to terminal 
+to tweak this, tweak that, seed the database, and empty the database -- giving the impression that this "thing" isn't really done.
 
-Ever been in a meeting that required giving a demo of this weeks work? You switch from your browser 
-to the development environment to run tasks that show what the feature looks like in
-different states.  Switching back and forth gives the impression that the development isn't finished.
-Rakeshed fixes that.  Write your rake tasks ahead of time and execute them in the browser.
-
+Rakeshed fixes that.  Write tasks ahead of time and execute them from the 
+address bar in the browser.  No more blowing up your presentation with messy context
+switches.
 
 Install
 ----------
@@ -38,6 +37,7 @@ end
 To install the Chrome extension navigate to chrome://extensions and load 'chrome-extension'
 from the rakeshed directory.
 
+This project rocks and uses MIT-LICENSE.
 
 The Rails Logo was created by Kevin Milden and is distrubuted under the BY-ND Creative Commons Licence.
 http://railslogo.com/
